@@ -81,7 +81,7 @@ class ParallaxBackground : GameElement {
         _layer1 = SKSpriteNode(color: UIColor.clear, size: CGSize.make(80, 80))
         _node!.addChild(_layer1!)
         
-        if let image = resizeImage(UIImage(named: name1)) {
+        if let image = resizeImage(RBImage.getImage(named: name1)) {
             let texture = SKTexture(image: image)
             var x = -(screenWidth/2.0)
             
@@ -105,7 +105,7 @@ class ParallaxBackground : GameElement {
         _layer2 = SKSpriteNode(color: UIColor.clear, size: CGSize.make(60, 60))
         _node!.addChild(_layer2!)
         
-        if let image = resizeImage(UIImage(named: name2)) {
+        if let image = resizeImage(RBImage.getImage(named: name2)) {
             let texture = SKTexture(image: image)
             var x = -screenWidth
             
@@ -129,7 +129,7 @@ class ParallaxBackground : GameElement {
         _layer3 = SKSpriteNode(color: UIColor.clear, size: CGSize.make(40, 40))
         _node!.addChild(_layer3!)
         
-        if let image = resizeImage(UIImage(named: name3)) {
+        if let image = resizeImage(RBImage.getImage(named: name3)) {
             let texture = SKTexture(image: image)
             var x = -screenWidth
             

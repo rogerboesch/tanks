@@ -333,7 +333,7 @@ class Hill : GameElement {
             let hSegments = floorf(Float(p1.x-p0.x)/Float(Hill.kHillSegmentWidth))
             
             let dx = Float(p1.x - p0.x) / hSegments
-            let da = Float(M_PI) / hSegments
+            let da = Float(Double.pi) / hSegments
             let ymid = (p0.y + p1.y) / 2
             let ampl = (p0.y - p1.y) / 2
             

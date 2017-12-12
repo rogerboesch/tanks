@@ -393,7 +393,7 @@ class GameScene : SKScene, SKPhysicsContactDelegate {
         hills.begin = 500
         hills.end = 2000
         hills.minDX = 250
-        hills.textureImage = UIImage(named: "terrain")
+        hills.textureImage = RBImage.getImage(named: "terrain")
         hills.start()
         
         // Save hill width as game width

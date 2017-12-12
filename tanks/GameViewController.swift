@@ -31,7 +31,7 @@ class GameViewController: UIViewController {
     // -------------------------------------------------------------------------
     // MARK: - Gesture handling
     
-    func handleTap(_ gestureRecognize: UIGestureRecognizer) {
+    @objc func handleTap(_ gestureRecognize: UIGestureRecognizer) {
         if _level!.isFinished {
             levelTransition()
         }
@@ -42,7 +42,7 @@ class GameViewController: UIViewController {
     
     // -------------------------------------------------------------------------
     
-    func handleSwipe(_ gestureRecognize: UISwipeGestureRecognizer) {
+    @objc func handleSwipe(_ gestureRecognize: UISwipeGestureRecognizer) {
         if (gestureRecognize.direction == .left) {
             rbDebug("Handle swipe left")
             _level!.handleGameKey(.left)

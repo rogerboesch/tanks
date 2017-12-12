@@ -84,7 +84,7 @@ class ItemImageBar : SKNode {
         _totalValue = CGFloat(total)
         _factor = CGFloat(factor)
         
-        if let image = UIImage(named: name) {
+        if let image = RBImage.getImage(named: name) {
             let texture = SKTexture(image: image)
 
             _width = 0

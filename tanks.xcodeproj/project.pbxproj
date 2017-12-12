@@ -94,6 +94,9 @@
 		DB0818E91E87D08800E21E86 /* game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFB8641E82752400341F38 /* game.xcassets */; };
 		DB4902DC1DBA071E00545288 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4902DB1DBA071E00545288 /* Default-568h@2x.png */; };
 		DB508C151E81A1F600AF0FD8 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB508C141E81A1F600AF0FD8 /* Tank.swift */; };
+		DB5D651D1FE0009C00528889 /* RBPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D651C1FE0009C00528889 /* RBPlatform.swift */; };
+		DB5D651E1FE0025300528889 /* RBPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D651C1FE0009C00528889 /* RBPlatform.swift */; };
+		DB5D651F1FE0025500528889 /* RBPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5D651C1FE0009C00528889 /* RBPlatform.swift */; };
 		DB70C0141E8118CF00E0F1CC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70C0131E8118CF00E0F1CC /* GameScene.swift */; };
 		DBCFB8651E82752400341F38 /* game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFB8641E82752400341F38 /* game.xcassets */; };
 		DBCFB8691E82F08000341F38 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB8681E82F08000341F38 /* GameElement.swift */; };
@@ -141,6 +144,7 @@
 		DB0818CB1E87CE5100E21E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4902DB1DBA071E00545288 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "tanks/Default-568h@2x.png"; sourceTree = "<group>"; };
 		DB508C141E81A1F600AF0FD8 /* Tank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		DB5D651C1FE0009C00528889 /* RBPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBPlatform.swift; sourceTree = "<group>"; };
 		DB70C0131E8118CF00E0F1CC /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DBCFB8641E82752400341F38 /* game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = game.xcassets; sourceTree = "<group>"; };
 		DBCFB8681E82F08000341F38 /* GameElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElement.swift; sourceTree = "<group>"; };
@@ -296,6 +300,7 @@
 				DB08181D1E84775600E21E86 /* RBGCD.swift */,
 				DB0818111E83A6BD00E21E86 /* RBLog.swift */,
 				DB0818121E83A6BD00E21E86 /* RBRandom.swift */,
+				DB5D651C1FE0009C00528889 /* RBPlatform.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -395,11 +400,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Roger Boesch";
 				TargetAttributes = {
 					DB0818331E85B55600E21E86 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					DB0818B71E87CE5100E21E86 = {
@@ -409,6 +415,7 @@
 					DBD5DEFD1DB951CC008DBBD5 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = F46T393V5A;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -509,6 +516,7 @@
 				DB0818581E85B6B000E21E86 /* Hill.swift in Sources */,
 				DB0818911E865D3F00E21E86 /* GameSound.swift in Sources */,
 				DB08184F1E85B59000E21E86 /* RBLog.swift in Sources */,
+				DB5D651F1FE0025500528889 /* RBPlatform.swift in Sources */,
 				DB08185C1E85B6EA00E21E86 /* GameHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,6 +545,7 @@
 				DB0818E81E87CF6700E21E86 /* GameScene.swift in Sources */,
 				DB0818D91E87CF4E00E21E86 /* RBLog.swift in Sources */,
 				DB0818D51E87CF4E00E21E86 /* RB+CGPoint.swift in Sources */,
+				DB5D651E1FE0025300528889 /* RBPlatform.swift in Sources */,
 				DB0818D71E87CF4E00E21E86 /* RB+CGSize.swift in Sources */,
 				DB0818BB1E87CE5100E21E86 /* AppDelegate.swift in Sources */,
 				DB0818E61E87CF6700E21E86 /* GameSettings.swift in Sources */,
@@ -567,6 +576,7 @@
 				DBCFB86B1E82FBB800341F38 /* GameHelper.swift in Sources */,
 				DB70C0141E8118CF00E0F1CC /* GameScene.swift in Sources */,
 				DB08182A1E85714600E21E86 /* GameHUD.swift in Sources */,
+				DB5D651D1FE0009C00528889 /* RBPlatform.swift in Sources */,
 				DBD5DF021DB951CC008DBBD5 /* AppDelegate.swift in Sources */,
 				DB0818141E83A6BD00E21E86 /* RBRandom.swift in Sources */,
 				DB08181A1E84434700E21E86 /* Sensor.swift in Sources */,
@@ -589,7 +599,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -606,7 +617,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -653,7 +665,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -661,7 +675,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -702,7 +721,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -710,7 +731,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -744,7 +770,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.stickyhills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -757,7 +784,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.stickyhills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -771,6 +799,7 @@
 				DB0818481E85B55600E21E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB0818CC1E87CE5100E21E86 /* Build configuration list for PBXNativeTarget "tanks-tvos" */ = {
 			isa = XCConfigurationList;
@@ -779,6 +808,7 @@
 				DB0818CE1E87CE5100E21E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBD5DEF91DB951CC008DBBD5 /* Build configuration list for PBXProject "tanks" */ = {
 			isa = XCConfigurationList;
