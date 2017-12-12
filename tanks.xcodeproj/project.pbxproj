@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB08180F1E83A48300E21E86 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08180E1E83A48300E21E86 /* Rocket.swift */; };
+		DB0818131E83A6BD00E21E86 /* RBLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818111E83A6BD00E21E86 /* RBLog.swift */; };
+		DB0818141E83A6BD00E21E86 /* RBRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818121E83A6BD00E21E86 /* RBRandom.swift */; };
+		DB0818161E83C01900E21E86 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818151E83C01900E21E86 /* Bullet.swift */; };
+		DB08181A1E84434700E21E86 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818191E84434700E21E86 /* Sensor.swift */; };
+		DB08181C1E84677800E21E86 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181B1E84677800E21E86 /* GameSettings.swift */; };
+		DB08181E1E84775600E21E86 /* RBGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181D1E84775600E21E86 /* RBGCD.swift */; };
+		DB0818201E84FB8700E21E86 /* ParallaxBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181F1E84FB8700E21E86 /* ParallaxBackground.swift */; };
+		DB0818251E85141900E21E86 /* RB+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818211E85141900E21E86 /* RB+CGFloat.swift */; };
+		DB0818261E85141900E21E86 /* RB+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818221E85141900E21E86 /* RB+CGPoint.swift */; };
+		DB0818271E85141900E21E86 /* RB+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818231E85141900E21E86 /* RB+CGRect.swift */; };
+		DB0818281E85141900E21E86 /* RB+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818241E85141900E21E86 /* RB+CGSize.swift */; };
+		DB08182A1E85714600E21E86 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818291E85714600E21E86 /* GameHUD.swift */; };
+		DB08182C1E859A5500E21E86 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182B1E859A5500E21E86 /* HealthBar.swift */; };
+		DB08182F1E859ED800E21E86 /* ItemImageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182E1E859ED800E21E86 /* ItemImageBar.swift */; };
+		DB0818371E85B55600E21E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818361E85B55600E21E86 /* AppDelegate.swift */; };
+		DB08183F1E85B55600E21E86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08183E1E85B55600E21E86 /* GameViewController.swift */; };
+		DB0818411E85B55600E21E86 /* app.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0818401E85B55600E21E86 /* app.xcassets */; };
+		DB08184A1E85B59000E21E86 /* RB+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818211E85141900E21E86 /* RB+CGFloat.swift */; };
+		DB08184B1E85B59000E21E86 /* RB+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818221E85141900E21E86 /* RB+CGPoint.swift */; };
+		DB08184C1E85B59000E21E86 /* RB+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818231E85141900E21E86 /* RB+CGRect.swift */; };
+		DB08184D1E85B59000E21E86 /* RB+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818241E85141900E21E86 /* RB+CGSize.swift */; };
+		DB08184E1E85B59000E21E86 /* RBGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181D1E84775600E21E86 /* RBGCD.swift */; };
+		DB08184F1E85B59000E21E86 /* RBLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818111E83A6BD00E21E86 /* RBLog.swift */; };
+		DB0818501E85B59000E21E86 /* RBRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818121E83A6BD00E21E86 /* RBRandom.swift */; };
+		DB0818521E85B68700E21E86 /* app.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0818511E85B68700E21E86 /* app.xcassets */; };
+		DB0818531E85B6B000E21E86 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB8681E82F08000341F38 /* GameElement.swift */; };
+		DB0818541E85B6B000E21E86 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818191E84434700E21E86 /* Sensor.swift */; };
+		DB0818551E85B6B000E21E86 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB508C141E81A1F600AF0FD8 /* Tank.swift */; };
+		DB0818561E85B6B000E21E86 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818151E83C01900E21E86 /* Bullet.swift */; };
+		DB0818571E85B6B000E21E86 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08180E1E83A48300E21E86 /* Rocket.swift */; };
+		DB0818581E85B6B000E21E86 /* Hill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5DF191DB95312008DBBD5 /* Hill.swift */; };
+		DB0818591E85B6B000E21E86 /* ParallaxBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181F1E84FB8700E21E86 /* ParallaxBackground.swift */; };
+		DB08185A1E85B6EA00E21E86 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182B1E859A5500E21E86 /* HealthBar.swift */; };
+		DB08185B1E85B6EA00E21E86 /* ItemImageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182E1E859ED800E21E86 /* ItemImageBar.swift */; };
+		DB08185C1E85B6EA00E21E86 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818291E85714600E21E86 /* GameHUD.swift */; };
+		DB08185D1E85B6EE00E21E86 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB86A1E82FBB800341F38 /* GameHelper.swift */; };
+		DB08185E1E85B6EE00E21E86 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181B1E84677800E21E86 /* GameSettings.swift */; };
+		DB08185F1E85B6EE00E21E86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70C0131E8118CF00E0F1CC /* GameScene.swift */; };
+		DB0818611E85B78F00E21E86 /* MacPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818601E85B78F00E21E86 /* MacPlatform.swift */; };
+		DB0818661E85C0BF00E21E86 /* game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFB8641E82752400341F38 /* game.xcassets */; };
+		DB08188B1E85C71200E21E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB08188A1E85C71200E21E86 /* Main.storyboard */; };
+		DB08188D1E85FBF900E21E86 /* Rain_Emitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB08188C1E85FBF900E21E86 /* Rain_Emitter.sks */; };
+		DB08188E1E85FBF900E21E86 /* Rain_Emitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB08188C1E85FBF900E21E86 /* Rain_Emitter.sks */; };
+		DB0818901E865D3F00E21E86 /* GameSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08188F1E865D3F00E21E86 /* GameSound.swift */; };
+		DB0818911E865D3F00E21E86 /* GameSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08188F1E865D3F00E21E86 /* GameSound.swift */; };
+		DB08189D1E8674EA00E21E86 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08189B1E8674EA00E21E86 /* WindowController.swift */; };
+		DB0818AC1E87B16400E21E86 /* bulletHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A81E87B16400E21E86 /* bulletHit.wav */; };
+		DB0818AD1E87B16400E21E86 /* bulletHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A81E87B16400E21E86 /* bulletHit.wav */; };
+		DB0818AE1E87B16400E21E86 /* emptyWeapon.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A91E87B16400E21E86 /* emptyWeapon.wav */; };
+		DB0818AF1E87B16400E21E86 /* emptyWeapon.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A91E87B16400E21E86 /* emptyWeapon.wav */; };
+		DB0818B01E87B16400E21E86 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AA1E87B16400E21E86 /* explosion.wav */; };
+		DB0818B11E87B16400E21E86 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AA1E87B16400E21E86 /* explosion.wav */; };
+		DB0818B21E87B16400E21E86 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AB1E87B16400E21E86 /* shot.wav */; };
+		DB0818B31E87B16400E21E86 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AB1E87B16400E21E86 /* shot.wav */; };
+		DB0818BB1E87CE5100E21E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818BA1E87CE5100E21E86 /* AppDelegate.swift */; };
+		DB0818C51E87CE5100E21E86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818C41E87CE5100E21E86 /* GameViewController.swift */; };
+		DB0818CA1E87CE5100E21E86 /* app.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0818C91E87CE5100E21E86 /* app.xcassets */; };
+		DB0818CF1E87CF3900E21E86 /* bulletHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A81E87B16400E21E86 /* bulletHit.wav */; };
+		DB0818D01E87CF3900E21E86 /* emptyWeapon.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818A91E87B16400E21E86 /* emptyWeapon.wav */; };
+		DB0818D11E87CF3900E21E86 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AA1E87B16400E21E86 /* explosion.wav */; };
+		DB0818D21E87CF3900E21E86 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB0818AB1E87B16400E21E86 /* shot.wav */; };
+		DB0818D31E87CF4400E21E86 /* Rain_Emitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = DB08188C1E85FBF900E21E86 /* Rain_Emitter.sks */; };
+		DB0818D41E87CF4E00E21E86 /* RB+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818211E85141900E21E86 /* RB+CGFloat.swift */; };
+		DB0818D51E87CF4E00E21E86 /* RB+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818221E85141900E21E86 /* RB+CGPoint.swift */; };
+		DB0818D61E87CF4E00E21E86 /* RB+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818231E85141900E21E86 /* RB+CGRect.swift */; };
+		DB0818D71E87CF4E00E21E86 /* RB+CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818241E85141900E21E86 /* RB+CGSize.swift */; };
+		DB0818D81E87CF4E00E21E86 /* RBGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181D1E84775600E21E86 /* RBGCD.swift */; };
+		DB0818D91E87CF4E00E21E86 /* RBLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818111E83A6BD00E21E86 /* RBLog.swift */; };
+		DB0818DA1E87CF4E00E21E86 /* RBRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818121E83A6BD00E21E86 /* RBRandom.swift */; };
+		DB0818DB1E87CF5600E21E86 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB8681E82F08000341F38 /* GameElement.swift */; };
+		DB0818DC1E87CF5600E21E86 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818191E84434700E21E86 /* Sensor.swift */; };
+		DB0818DD1E87CF5600E21E86 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB508C141E81A1F600AF0FD8 /* Tank.swift */; };
+		DB0818DE1E87CF5600E21E86 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818151E83C01900E21E86 /* Bullet.swift */; };
+		DB0818DF1E87CF5600E21E86 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08180E1E83A48300E21E86 /* Rocket.swift */; };
+		DB0818E01E87CF5600E21E86 /* Hill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5DF191DB95312008DBBD5 /* Hill.swift */; };
+		DB0818E11E87CF5600E21E86 /* ParallaxBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181F1E84FB8700E21E86 /* ParallaxBackground.swift */; };
+		DB0818E21E87CF5E00E21E86 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182B1E859A5500E21E86 /* HealthBar.swift */; };
+		DB0818E31E87CF5E00E21E86 /* ItemImageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08182E1E859ED800E21E86 /* ItemImageBar.swift */; };
+		DB0818E41E87CF5E00E21E86 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0818291E85714600E21E86 /* GameHUD.swift */; };
+		DB0818E51E87CF6700E21E86 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB86A1E82FBB800341F38 /* GameHelper.swift */; };
+		DB0818E61E87CF6700E21E86 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08181B1E84677800E21E86 /* GameSettings.swift */; };
+		DB0818E71E87CF6700E21E86 /* GameSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08188F1E865D3F00E21E86 /* GameSound.swift */; };
+		DB0818E81E87CF6700E21E86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70C0131E8118CF00E0F1CC /* GameScene.swift */; };
+		DB0818E91E87D08800E21E86 /* game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFB8641E82752400341F38 /* game.xcassets */; };
+		DB4902DC1DBA071E00545288 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4902DB1DBA071E00545288 /* Default-568h@2x.png */; };
+		DB508C151E81A1F600AF0FD8 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB508C141E81A1F600AF0FD8 /* Tank.swift */; };
+		DB70C0141E8118CF00E0F1CC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70C0131E8118CF00E0F1CC /* GameScene.swift */; };
+		DBCFB8651E82752400341F38 /* game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCFB8641E82752400341F38 /* game.xcassets */; };
+		DBCFB8691E82F08000341F38 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB8681E82F08000341F38 /* GameElement.swift */; };
+		DBCFB86B1E82FBB800341F38 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB86A1E82FBB800341F38 /* GameHelper.swift */; };
+		DBD5DF021DB951CC008DBBD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5DF011DB951CC008DBBD5 /* AppDelegate.swift */; };
+		DBD5DF0A1DB951CC008DBBD5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5DF091DB951CC008DBBD5 /* GameViewController.swift */; };
+		DBD5DF1A1DB95312008DBBD5 /* Hill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD5DF191DB95312008DBBD5 /* Hill.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB08180E1E83A48300E21E86 /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		DB0818111E83A6BD00E21E86 /* RBLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBLog.swift; sourceTree = "<group>"; };
+		DB0818121E83A6BD00E21E86 /* RBRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBRandom.swift; sourceTree = "<group>"; };
+		DB0818151E83C01900E21E86 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		DB0818191E84434700E21E86 /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		DB08181B1E84677800E21E86 /* GameSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		DB08181D1E84775600E21E86 /* RBGCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGCD.swift; sourceTree = "<group>"; };
+		DB08181F1E84FB8700E21E86 /* ParallaxBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxBackground.swift; sourceTree = "<group>"; };
+		DB0818211E85141900E21E86 /* RB+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+CGFloat.swift"; sourceTree = "<group>"; };
+		DB0818221E85141900E21E86 /* RB+CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+CGPoint.swift"; sourceTree = "<group>"; };
+		DB0818231E85141900E21E86 /* RB+CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+CGRect.swift"; sourceTree = "<group>"; };
+		DB0818241E85141900E21E86 /* RB+CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RB+CGSize.swift"; sourceTree = "<group>"; };
+		DB0818291E85714600E21E86 /* GameHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHUD.swift; sourceTree = "<group>"; };
+		DB08182B1E859A5500E21E86 /* HealthBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
+		DB08182E1E859ED800E21E86 /* ItemImageBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemImageBar.swift; sourceTree = "<group>"; };
+		DB0818341E85B55600E21E86 /* tanks-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tanks-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0818361E85B55600E21E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB08183E1E85B55600E21E86 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB0818401E85B55600E21E86 /* app.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = app.xcassets; sourceTree = "<group>"; };
+		DB0818451E85B55600E21E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0818511E85B68700E21E86 /* app.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = app.xcassets; sourceTree = "<group>"; };
+		DB0818601E85B78F00E21E86 /* MacPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacPlatform.swift; sourceTree = "<group>"; };
+		DB08188A1E85C71200E21E86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB08188C1E85FBF900E21E86 /* Rain_Emitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain_Emitter.sks; sourceTree = "<group>"; };
+		DB08188F1E865D3F00E21E86 /* GameSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSound.swift; sourceTree = "<group>"; };
+		DB08189B1E8674EA00E21E86 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		DB0818A81E87B16400E21E86 /* bulletHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bulletHit.wav; path = sounds/bulletHit.wav; sourceTree = "<group>"; };
+		DB0818A91E87B16400E21E86 /* emptyWeapon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = emptyWeapon.wav; path = sounds/emptyWeapon.wav; sourceTree = "<group>"; };
+		DB0818AA1E87B16400E21E86 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = sounds/explosion.wav; sourceTree = "<group>"; };
+		DB0818AB1E87B16400E21E86 /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shot.wav; path = sounds/shot.wav; sourceTree = "<group>"; };
+		DB0818B81E87CE5100E21E86 /* tanks-tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tanks-tvos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0818BA1E87CE5100E21E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0818C41E87CE5100E21E86 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB0818C91E87CE5100E21E86 /* app.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = app.xcassets; sourceTree = "<group>"; };
+		DB0818CB1E87CE5100E21E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4902DB1DBA071E00545288 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "tanks/Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB508C141E81A1F600AF0FD8 /* Tank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		DB70C0131E8118CF00E0F1CC /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DBCFB8641E82752400341F38 /* game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = game.xcassets; sourceTree = "<group>"; };
+		DBCFB8681E82F08000341F38 /* GameElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElement.swift; sourceTree = "<group>"; };
+		DBCFB86A1E82FBB800341F38 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		DBD5DEFE1DB951CC008DBBD5 /* tanks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tanks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD5DF011DB951CC008DBBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD5DF091DB951CC008DBBD5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DBD5DF131DB951CC008DBBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = tanks/Info.plist; sourceTree = "<group>"; };
+		DBD5DF191DB95312008DBBD5 /* Hill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hill.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0818311E85B55600E21E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0818B51E87CE5100E21E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5DEFB1DB951CC008DBBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0818101E83A48E00E21E86 /* GameElements */ = {
+			isa = PBXGroup;
+			children = (
+				DBCFB8681E82F08000341F38 /* GameElement.swift */,
+				DB0818191E84434700E21E86 /* Sensor.swift */,
+				DB508C141E81A1F600AF0FD8 /* Tank.swift */,
+				DB0818151E83C01900E21E86 /* Bullet.swift */,
+				DB08180E1E83A48300E21E86 /* Rocket.swift */,
+				DBD5DF191DB95312008DBBD5 /* Hill.swift */,
+				DB08181F1E84FB8700E21E86 /* ParallaxBackground.swift */,
+			);
+			name = GameElements;
+			sourceTree = "<group>";
+		};
+		DB08182D1E859ACC00E21E86 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				DB08182B1E859A5500E21E86 /* HealthBar.swift */,
+				DB08182E1E859ED800E21E86 /* ItemImageBar.swift */,
+				DB0818291E85714600E21E86 /* GameHUD.swift */,
+			);
+			name = HUD;
+			sourceTree = "<group>";
+		};
+		DB0818351E85B55600E21E86 /* tanks-macos */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818EC1E87D13200E21E86 /* Assets */,
+				DB0818601E85B78F00E21E86 /* MacPlatform.swift */,
+				DB08183E1E85B55600E21E86 /* GameViewController.swift */,
+				DB08189B1E8674EA00E21E86 /* WindowController.swift */,
+				DB0818361E85B55600E21E86 /* AppDelegate.swift */,
+			);
+			path = "tanks-macos";
+			sourceTree = "<group>";
+		};
+		DB0818A71E87B15600E21E86 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818A81E87B16400E21E86 /* bulletHit.wav */,
+				DB0818A91E87B16400E21E86 /* emptyWeapon.wav */,
+				DB0818AA1E87B16400E21E86 /* explosion.wav */,
+				DB0818AB1E87B16400E21E86 /* shot.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		DB0818B91E87CE5100E21E86 /* tanks-tvos */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818ED1E87DD7D00E21E86 /* Assets */,
+				DB0818C41E87CE5100E21E86 /* GameViewController.swift */,
+				DB0818BA1E87CE5100E21E86 /* AppDelegate.swift */,
+			);
+			path = "tanks-tvos";
+			sourceTree = "<group>";
+		};
+		DB0818EA1E87D0EF00E21E86 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DBCFB86A1E82FBB800341F38 /* GameHelper.swift */,
+				DB08181B1E84677800E21E86 /* GameSettings.swift */,
+				DB08188F1E865D3F00E21E86 /* GameSound.swift */,
+				DB70C0131E8118CF00E0F1CC /* GameScene.swift */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		DB0818EB1E87D11B00E21E86 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5DF091DB951CC008DBBD5 /* GameViewController.swift */,
+				DBD5DF011DB951CC008DBBD5 /* AppDelegate.swift */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB0818EC1E87D13200E21E86 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818401E85B55600E21E86 /* app.xcassets */,
+				DB08188A1E85C71200E21E86 /* Main.storyboard */,
+				DB0818451E85B55600E21E86 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DB0818ED1E87DD7D00E21E86 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818C91E87CE5100E21E86 /* app.xcassets */,
+				DB0818CB1E87CE5100E21E86 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DB4902DA1DBA070E00545288 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818A71E87B15600E21E86 /* sounds */,
+				DB0818511E85B68700E21E86 /* app.xcassets */,
+				DBCFB8641E82752400341F38 /* game.xcassets */,
+				DB4902DB1DBA071E00545288 /* Default-568h@2x.png */,
+				DB08188C1E85FBF900E21E86 /* Rain_Emitter.sks */,
+				DBD5DF131DB951CC008DBBD5 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DBCFB86C1E831BC200341F38 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DB0818211E85141900E21E86 /* RB+CGFloat.swift */,
+				DB0818221E85141900E21E86 /* RB+CGPoint.swift */,
+				DB0818231E85141900E21E86 /* RB+CGRect.swift */,
+				DB0818241E85141900E21E86 /* RB+CGSize.swift */,
+				DB08181D1E84775600E21E86 /* RBGCD.swift */,
+				DB0818111E83A6BD00E21E86 /* RBLog.swift */,
+				DB0818121E83A6BD00E21E86 /* RBRandom.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		DBD5DEF51DB951CC008DBBD5 = {
+			isa = PBXGroup;
+			children = (
+				DB4902DA1DBA070E00545288 /* Assets */,
+				DBD5DF001DB951CC008DBBD5 /* tanks-common */,
+				DB0818351E85B55600E21E86 /* tanks-macos */,
+				DB0818B91E87CE5100E21E86 /* tanks-tvos */,
+				DBD5DEFF1DB951CC008DBBD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD5DEFF1DB951CC008DBBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5DEFE1DB951CC008DBBD5 /* tanks.app */,
+				DB0818341E85B55600E21E86 /* tanks-macos.app */,
+				DB0818B81E87CE5100E21E86 /* tanks-tvos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD5DF001DB951CC008DBBD5 /* tanks-common */ = {
+			isa = PBXGroup;
+			children = (
+				DBCFB86C1E831BC200341F38 /* Base */,
+				DB08182D1E859ACC00E21E86 /* HUD */,
+				DB0818101E83A48E00E21E86 /* GameElements */,
+				DB0818EA1E87D0EF00E21E86 /* Game */,
+				DB0818EB1E87D11B00E21E86 /* iOS */,
+			);
+			name = "tanks-common";
+			path = tanks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0818331E85B55600E21E86 /* tanks-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0818461E85B55600E21E86 /* Build configuration list for PBXNativeTarget "tanks-macos" */;
+			buildPhases = (
+				DB0818301E85B55600E21E86 /* Sources */,
+				DB0818311E85B55600E21E86 /* Frameworks */,
+				DB0818321E85B55600E21E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tanks-macos";
+			productName = "tanks-macos";
+			productReference = DB0818341E85B55600E21E86 /* tanks-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0818B71E87CE5100E21E86 /* tanks-tvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0818CC1E87CE5100E21E86 /* Build configuration list for PBXNativeTarget "tanks-tvos" */;
+			buildPhases = (
+				DB0818B41E87CE5100E21E86 /* Sources */,
+				DB0818B51E87CE5100E21E86 /* Frameworks */,
+				DB0818B61E87CE5100E21E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tanks-tvos";
+			productName = "tanks-tvos";
+			productReference = DB0818B81E87CE5100E21E86 /* tanks-tvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD5DEFD1DB951CC008DBBD5 /* tanks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD5DF161DB951CC008DBBD5 /* Build configuration list for PBXNativeTarget "tanks" */;
+			buildPhases = (
+				DBD5DEFA1DB951CC008DBBD5 /* Sources */,
+				DBD5DEFB1DB951CC008DBBD5 /* Frameworks */,
+				DBD5DEFC1DB951CC008DBBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tanks;
+			productName = stickyhills;
+			productReference = DBD5DEFE1DB951CC008DBBD5 /* tanks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD5DEF61DB951CC008DBBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Roger Boesch";
+				TargetAttributes = {
+					DB0818331E85B55600E21E86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB0818B71E87CE5100E21E86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DBD5DEFD1DB951CC008DBBD5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F46T393V5A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBD5DEF91DB951CC008DBBD5 /* Build configuration list for PBXProject "tanks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD5DEF51DB951CC008DBBD5;
+			productRefGroup = DBD5DEFF1DB951CC008DBBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD5DEFD1DB951CC008DBBD5 /* tanks */,
+				DB0818331E85B55600E21E86 /* tanks-macos */,
+				DB0818B71E87CE5100E21E86 /* tanks-tvos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0818321E85B55600E21E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0818AF1E87B16400E21E86 /* emptyWeapon.wav in Resources */,
+				DB0818411E85B55600E21E86 /* app.xcassets in Resources */,
+				DB0818B31E87B16400E21E86 /* shot.wav in Resources */,
+				DB0818B11E87B16400E21E86 /* explosion.wav in Resources */,
+				DB0818661E85C0BF00E21E86 /* game.xcassets in Resources */,
+				DB08188E1E85FBF900E21E86 /* Rain_Emitter.sks in Resources */,
+				DB08188B1E85C71200E21E86 /* Main.storyboard in Resources */,
+				DB0818AD1E87B16400E21E86 /* bulletHit.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0818B61E87CE5100E21E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0818D21E87CF3900E21E86 /* shot.wav in Resources */,
+				DB0818D01E87CF3900E21E86 /* emptyWeapon.wav in Resources */,
+				DB0818CF1E87CF3900E21E86 /* bulletHit.wav in Resources */,
+				DB0818D11E87CF3900E21E86 /* explosion.wav in Resources */,
+				DB0818D31E87CF4400E21E86 /* Rain_Emitter.sks in Resources */,
+				DB0818CA1E87CE5100E21E86 /* app.xcassets in Resources */,
+				DB0818E91E87D08800E21E86 /* game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5DEFC1DB951CC008DBBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0818AE1E87B16400E21E86 /* emptyWeapon.wav in Resources */,
+				DB4902DC1DBA071E00545288 /* Default-568h@2x.png in Resources */,
+				DB0818B21E87B16400E21E86 /* shot.wav in Resources */,
+				DB0818B01E87B16400E21E86 /* explosion.wav in Resources */,
+				DBCFB8651E82752400341F38 /* game.xcassets in Resources */,
+				DB08188D1E85FBF900E21E86 /* Rain_Emitter.sks in Resources */,
+				DB0818521E85B68700E21E86 /* app.xcassets in Resources */,
+				DB0818AC1E87B16400E21E86 /* bulletHit.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0818301E85B55600E21E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB08184E1E85B59000E21E86 /* RBGCD.swift in Sources */,
+				DB08185A1E85B6EA00E21E86 /* HealthBar.swift in Sources */,
+				DB08185E1E85B6EE00E21E86 /* GameSettings.swift in Sources */,
+				DB0818541E85B6B000E21E86 /* Sensor.swift in Sources */,
+				DB08184B1E85B59000E21E86 /* RB+CGPoint.swift in Sources */,
+				DB08185B1E85B6EA00E21E86 /* ItemImageBar.swift in Sources */,
+				DB08189D1E8674EA00E21E86 /* WindowController.swift in Sources */,
+				DB08185D1E85B6EE00E21E86 /* GameHelper.swift in Sources */,
+				DB0818571E85B6B000E21E86 /* Rocket.swift in Sources */,
+				DB0818561E85B6B000E21E86 /* Bullet.swift in Sources */,
+				DB0818551E85B6B000E21E86 /* Tank.swift in Sources */,
+				DB0818591E85B6B000E21E86 /* ParallaxBackground.swift in Sources */,
+				DB08184C1E85B59000E21E86 /* RB+CGRect.swift in Sources */,
+				DB0818531E85B6B000E21E86 /* GameElement.swift in Sources */,
+				DB08183F1E85B55600E21E86 /* GameViewController.swift in Sources */,
+				DB08184A1E85B59000E21E86 /* RB+CGFloat.swift in Sources */,
+				DB0818611E85B78F00E21E86 /* MacPlatform.swift in Sources */,
+				DB0818371E85B55600E21E86 /* AppDelegate.swift in Sources */,
+				DB08185F1E85B6EE00E21E86 /* GameScene.swift in Sources */,
+				DB08184D1E85B59000E21E86 /* RB+CGSize.swift in Sources */,
+				DB0818501E85B59000E21E86 /* RBRandom.swift in Sources */,
+				DB0818581E85B6B000E21E86 /* Hill.swift in Sources */,
+				DB0818911E865D3F00E21E86 /* GameSound.swift in Sources */,
+				DB08184F1E85B59000E21E86 /* RBLog.swift in Sources */,
+				DB08185C1E85B6EA00E21E86 /* GameHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0818B41E87CE5100E21E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0818E01E87CF5600E21E86 /* Hill.swift in Sources */,
+				DB0818D81E87CF4E00E21E86 /* RBGCD.swift in Sources */,
+				DB0818E31E87CF5E00E21E86 /* ItemImageBar.swift in Sources */,
+				DB0818DA1E87CF4E00E21E86 /* RBRandom.swift in Sources */,
+				DB0818DE1E87CF5600E21E86 /* Bullet.swift in Sources */,
+				DB0818E51E87CF6700E21E86 /* GameHelper.swift in Sources */,
+				DB0818DC1E87CF5600E21E86 /* Sensor.swift in Sources */,
+				DB0818E41E87CF5E00E21E86 /* GameHUD.swift in Sources */,
+				DB0818D41E87CF4E00E21E86 /* RB+CGFloat.swift in Sources */,
+				DB0818E21E87CF5E00E21E86 /* HealthBar.swift in Sources */,
+				DB0818C51E87CE5100E21E86 /* GameViewController.swift in Sources */,
+				DB0818E71E87CF6700E21E86 /* GameSound.swift in Sources */,
+				DB0818DB1E87CF5600E21E86 /* GameElement.swift in Sources */,
+				DB0818E11E87CF5600E21E86 /* ParallaxBackground.swift in Sources */,
+				DB0818DF1E87CF5600E21E86 /* Rocket.swift in Sources */,
+				DB0818D61E87CF4E00E21E86 /* RB+CGRect.swift in Sources */,
+				DB0818DD1E87CF5600E21E86 /* Tank.swift in Sources */,
+				DB0818E81E87CF6700E21E86 /* GameScene.swift in Sources */,
+				DB0818D91E87CF4E00E21E86 /* RBLog.swift in Sources */,
+				DB0818D51E87CF4E00E21E86 /* RB+CGPoint.swift in Sources */,
+				DB0818D71E87CF4E00E21E86 /* RB+CGSize.swift in Sources */,
+				DB0818BB1E87CE5100E21E86 /* AppDelegate.swift in Sources */,
+				DB0818E61E87CF6700E21E86 /* GameSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD5DEFA1DB951CC008DBBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0818901E865D3F00E21E86 /* GameSound.swift in Sources */,
+				DB0818131E83A6BD00E21E86 /* RBLog.swift in Sources */,
+				DB08181E1E84775600E21E86 /* RBGCD.swift in Sources */,
+				DB0818261E85141900E21E86 /* RB+CGPoint.swift in Sources */,
+				DBCFB8691E82F08000341F38 /* GameElement.swift in Sources */,
+				DB0818161E83C01900E21E86 /* Bullet.swift in Sources */,
+				DBD5DF1A1DB95312008DBBD5 /* Hill.swift in Sources */,
+				DBD5DF0A1DB951CC008DBBD5 /* GameViewController.swift in Sources */,
+				DB08182C1E859A5500E21E86 /* HealthBar.swift in Sources */,
+				DB08180F1E83A48300E21E86 /* Rocket.swift in Sources */,
+				DB08182F1E859ED800E21E86 /* ItemImageBar.swift in Sources */,
+				DB08181C1E84677800E21E86 /* GameSettings.swift in Sources */,
+				DB0818201E84FB8700E21E86 /* ParallaxBackground.swift in Sources */,
+				DB0818281E85141900E21E86 /* RB+CGSize.swift in Sources */,
+				DB508C151E81A1F600AF0FD8 /* Tank.swift in Sources */,
+				DB0818271E85141900E21E86 /* RB+CGRect.swift in Sources */,
+				DB0818251E85141900E21E86 /* RB+CGFloat.swift in Sources */,
+				DBCFB86B1E82FBB800341F38 /* GameHelper.swift in Sources */,
+				DB70C0141E8118CF00E0F1CC /* GameScene.swift in Sources */,
+				DB08182A1E85714600E21E86 /* GameHUD.swift in Sources */,
+				DBD5DF021DB951CC008DBBD5 /* AppDelegate.swift in Sources */,
+				DB0818141E83A6BD00E21E86 /* RBRandom.swift in Sources */,
+				DB08181A1E84434700E21E86 /* Sensor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB0818471E85B55600E21E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tanks-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB0818481E85B55600E21E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tanks-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB0818CD1E87CE5100E21E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = "tanks-tvos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		DB0818CE1E87CE5100E21E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				INFOPLIST_FILE = "tanks-tvos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogerboesch.tanks-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		DBD5DF141DB951CC008DBBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD5DF151DB951CC008DBBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD5DF171DB951CC008DBBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F46T393V5A;
+				INFOPLIST_FILE = tanks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.stickyhills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBD5DF181DB951CC008DBBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F46T393V5A;
+				INFOPLIST_FILE = tanks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerboesch.stickyhills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0818461E85B55600E21E86 /* Build configuration list for PBXNativeTarget "tanks-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0818471E85B55600E21E86 /* Debug */,
+				DB0818481E85B55600E21E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0818CC1E87CE5100E21E86 /* Build configuration list for PBXNativeTarget "tanks-tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0818CD1E87CE5100E21E86 /* Debug */,
+				DB0818CE1E87CE5100E21E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBD5DEF91DB951CC008DBBD5 /* Build configuration list for PBXProject "tanks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5DF141DB951CC008DBBD5 /* Debug */,
+				DBD5DF151DB951CC008DBBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD5DF161DB951CC008DBBD5 /* Build configuration list for PBXNativeTarget "tanks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD5DF171DB951CC008DBBD5 /* Debug */,
+				DBD5DF181DB951CC008DBBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD5DEF61DB951CC008DBBD5 /* Project object */;
+}
