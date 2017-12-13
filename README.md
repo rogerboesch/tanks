@@ -9,4 +9,5 @@ Topics covered:
 - Scoring
 - Multiplatform (iOS, tvOS, macOS)
 
-https://github.com/rogerboesch/tanks/blob/master/screenshots/screenshot1.png
+![Screenshot 1](/screenshots/screenshot1.png)
+
